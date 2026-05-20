@@ -6,7 +6,8 @@
     "outDir": "./dist",
 
     // Environment Settings for Node.js
-    "module": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "target": "es2020",
     "types": ["node"],
     "lib": ["es2020"],
