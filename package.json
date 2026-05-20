@@ -2,11 +2,12 @@
   "name": "curso_node_express_mongodb",
   "version": "1.0.0",
   "description": "curso de node con express y mongodb",
-  "main": "index.js",
+  "main": "src/server.ts",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "start": "node src/server.ts"
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "author": "Príncipe Vásquez",
   "license": "ISC",

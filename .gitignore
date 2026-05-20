@@ -19,9 +19,9 @@ yarn-error.log"
 .idea/
 
 # Archivos de compilación
-dist/
-build/
-*.tmp
+# dist/
+# build/
+# *.tmp
 
 # Dependencias y paquetes
 package-lock-json
