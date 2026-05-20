@@ -19,6 +19,6 @@ const PORT = process.env.PORT || 3001;
 
 connectDB().then(() => {
     app.listen(PORT, () => {
-        console.log(`Servidor levantado en puerto http://localhost/${PORT}`);
+        console.log(`Servidor levantado en puerto http://localhost:${PORT}`);
     })
 })
